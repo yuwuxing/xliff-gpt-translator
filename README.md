@@ -4,10 +4,11 @@ Xliff GPT Translator is a Node.js application that automatically translates XLIF
 
 ## Features
 
-- Batch translation of XLIFF files.
+- - Batch translate XLIFF files, currently only supports conversion of XLIFF version 1.2. 
 - Customizable rate limit and number of text nodes translated per request, ensuring smooth operation even under free API limits.
 - Automatically detects source and target languages from the XLIFF file.
 - Easy-to-use and well-documented code.
+- Supports batch translation of XLIFF files exported by Wordpress WPML plugin.
 
 ## Getting Started
 
@@ -21,7 +22,7 @@ Xliff GPT Translator is a Node.js application that automatically translates XLIF
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/xliff-gpt-translator.git
+git clone https://github.com/yuwuxing/xliff-gpt-translator
 ```
 
 2. Install dependencies:

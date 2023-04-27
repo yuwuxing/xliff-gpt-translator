@@ -4,10 +4,11 @@ Xliff GPT Translator是一个使用 OpenAI Chat API 自动翻译 XLIFF 文件的
 
 ## 特点
 
-- 批量翻译 XLIFF 文件。
+- 批量翻译 XLIFF 文件，目前只支持XLIFF 1.2版本的转换。
 - 可自定义速率限制和每个请求翻译的文本节点数，保证免费版API限流也能正常生成。
 - 从 XLIFF 文件中自动检测源语言和目标语言。
 - 易于使用且文档齐全的代码。
+- 支持Wordpress WPML插件导出的xliff文件批量翻译后导入
 
 ## 入门指南
 
