@@ -1,5 +1,7 @@
 # Xliff GPT Translator
 
+[English](https://github.com/yuwuxing/xliff-gpt-translator/) | 简体中文
+
 Xliff GPT Translator是一个使用 OpenAI Chat API 自动翻译 XLIFF 文件的 Node.js 应用程序。它从输入目录读取 XLIFF 文件，将其翻译成目标语言，并将翻译后的文件保存到输出目录。
 
 ## 特点
