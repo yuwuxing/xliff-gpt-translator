@@ -74,8 +74,13 @@ const translationTasks = files.map(file => {
                             const targetlatedText = isCdata
                                 ? `<![CDATA[${translatedTexts[i]}]]>`
                                 : `${translatedTexts[i]}`;
+                            // Check if target element exists, if not, create one
                             var target = $(node).find('target');
-                            target.html(targetlatedText);
+                            if (target.length === 0) {
+                                $(node).append(`<target>${targetlatedText}</target>`);
+                            } else {
+                                target.html(targetlatedText);
+                            }
                         });
                         fs.writeFileSync(outPath, $.xml());
                     })
